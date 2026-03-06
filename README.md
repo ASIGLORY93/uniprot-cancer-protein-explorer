@@ -1,4 +1,4 @@
-# 🧬 UniProt Cancer Protein Explorer
+#  UniProt Cancer Protein Explorer
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ASIGLORY93/uniprot-cancer-protein-explorer/blob/main/UniProt_Cancer_Protein_Explorer.ipynb)
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
@@ -7,7 +7,7 @@
 
  A reproducible Python notebook for programmatic access to UniProt cancer protein data, starting with TP53. Demonstrates REST API queries, metadata handling and data export. A beginner-friendly Python notebook for querying human cancer protein data from the UniProt REST API (Application Programming Interface). Built as a hands-on project following the **UniProt Programmatic Data Access Webinar** hosted by EMBL-EBI (European Molecular Biology Laboratory, European Bioinformatics Institute).
 
-## 📖 About This Project
+##  About This Project
 
 This project was built to apply knowledge gained from an EMBL-EBI webinar on programmatic access to UniProt, delivered by **Aurélien Luciani** and **Emily Bowler-Barnett**.
 
@@ -20,7 +20,7 @@ The notebook demonstrates how to use the UniProt REST API to:
 
 The starting example uses **TP53**  the most frequently mutated gene in human cancers, often called the *guardian of the genome*.
 
-## 🚀 Quick Start
+##  Quick Start
 
 No installation needed. Click the badge below to open directly in Google Colab and run in your browser:
 
@@ -65,7 +65,7 @@ CSV (Comma-Separated Values) is a simple spreadsheet format you can open in Exce
 
 
 
-## 🔬 What the Notebook Does
+##  What the Notebook Does
 
 | Step   |             Action                        |     What It Demonstrates 
 |--------|-------------------------------------------|-----------------------------
@@ -78,7 +78,7 @@ CSV (Comma-Separated Values) is a simple spreadsheet format you can open in Exce
 | Step 7 |        Save to CSV file                   | Export for Excel or Google Sheets 
 
 
-## 🧪 Sample Output
+##  Sample Output
 
 Searching for **TP53** in *Homo sapiens* (Human), reviewed entries only:
 
@@ -90,7 +90,7 @@ Searching for **TP53** in *Homo sapiens* (Human), reviewed entries only:
 - `x-total-results`: 1 matching reviewed entry
 - `x-uniprot-release`: 2026_01 (January 2026 database release)
 
-## 🎯 How to Customise
+##  How to Customise
 
 Change the `SEARCH_GENE` variable in **Step 3** to explore any cancer gene:
 
@@ -102,7 +102,7 @@ SEARCH_GENE = 'TP53'   # Try: BRCA1, KRAS, EGFR, MYC, BRCA2, PTEN
 Re-run the notebook and it will automatically fetch and display the new results.
 
 
-## 📡 Key Concepts Covered
+##  Key Concepts Covered
 
 **REST API** — Representational State Transfer Application Programming Interface. A web service that returns data in response to HTTP requests.
 
@@ -118,7 +118,7 @@ Re-run the notebook and it will automatically fetch and display the new results.
 - `5xx` — Server error. Contact UniProt support if it persists
 
 
-## 🛠️ Requirements
+##  Requirements
 
 All dependencies are pre-installed in Google Colab. If running locally:
 
@@ -126,7 +126,7 @@ bash
 pip install requests pandas
 
 
-## 📚 Resources
+## Resources
 
 | Resource | Link |
 |----------|------|
@@ -137,7 +137,7 @@ pip install requests pandas
 | Google Colab | https://colab.research.google.com |
 
 
-## 🎓 Based On
+## Based On
 
 This project was inspired by the **UniProt Programmatic Data Access Webinar** hosted by:
 - **Aurélien Luciani** — EMBL-EBI
@@ -146,14 +146,14 @@ This project was inspired by the **UniProt Programmatic Data Access Webinar** ho
 Organised by EMBL-EBI 
 
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 
-## 🤝 Connect
+##  Connect
 
-If you found this useful, feel free to ⭐ star the repository and share it with fellow researchers!
+If you found this useful, feel free to star the repository and share it with fellow researchers!
 
-*Built with curiosity and a love for open science. 🔬*
+*Built with curiosity and a love for open science. *
 
