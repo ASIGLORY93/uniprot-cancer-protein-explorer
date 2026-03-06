@@ -145,12 +145,6 @@ This project was inspired by the **UniProt Programmatic Data Access Webinar** ho
 
 Organised by EMBL-EBI 
 
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-
 ##  Connect
 
 If you found this useful, feel free to star the repository and share it with fellow researchers!
