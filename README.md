@@ -1,5 +1,3 @@
-# uniprot-cancer-protein-explorer
-A reproducible Python notebook for programmatic access to UniProt cancer protein data, starting with TP53. Demonstrates REST API queries, metadata handling and data export
 # 🧬 UniProt Cancer Protein Explorer
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ASIGLORY93/uniprot-cancer-protein-explorer/blob/main/UniProt_Cancer_Protein_Explorer.ipynb)
