@@ -28,6 +28,43 @@ No installation needed. Click the badge below to open directly in Google Colab a
 
 Once open, click **Runtime > Run All** and the notebook will run from top to bottom automatically.
 
+Step 1: Install & Import Libraries
+Libraries are pre-built tools that save us writing code from scratch.
+requests — lets Python talk to websites and APIs
+pandas — helps us organise data into tables
+IPython.display — makes our output look nice in the notebook
+
+Step 2: Set Up the UniProt API Connection
+The UniProt REST API (Representational State Transfer — Application Programming Interface) base URL is:
+https://rest.uniprot.org
+We will specifically use the UniProtKB (UniProt KnowledgeBase) endpoint — this is the main database of reviewed and unreviewed protein entries.
+
+Step 3: Search for Cancer-Related Human Proteins
+We will search for TP53 — the most studied tumour suppressor gene in cancer research, often called the 'guardian of the genome'.
+The query format comes directly from UniProt's Advanced Search UI (User Interface):
+gene:TP53 AND organism_id:9606 AND reviewed:true
+gene:TP53 — search by gene name
+organism_id:9606 - taxonomy ID (identifier) for Homo sapiens (Human)
+reviewed:true  only Swiss-Prot reviewed (high quality, manually annotated) entries
+To customise: Change SEARCH_GENE below to any cancer gene e.g. BRCA1, EGFR, MYC, KRAS
+
+Step 4: Read the Response Headers (Metadata)
+As the webinar covered, response headers act as metadata — they tell us important information about our results:
+x-total-results  the total number of matching proteins in UniProt (not just the ones we downloaded)
+x-uniprot-release which version of UniProt this data comes from
+content-type the format of the data returned
+
+Step 5: Display the Protein Results as a Table
+Now let's parse (read and extract) the JSON (JavaScript Object Notation) response and display it as a clean table!
+
+Step 6: Generate UniProt Links for Each Protein
+Each accession (UniProt ID) links directly to a full protein entry page. Let's make those links clickable!
+
+Step 7: Save Results to a CSV File
+CSV (Comma-Separated Values) is a simple spreadsheet format you can open in Excel or Google Sheets.
+
+
+
 ## 🔬 What the Notebook Does
 
 | Step   |             Action                        |     What It Demonstrates 
